@@ -152,7 +152,7 @@ section { padding: clamp(64px, 9vw, 110px) 0; }
 /* Kontakt */
 .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; margin-top: 28px; }
 .contact-grid h3 { font-family: var(--sans); font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: .4em; }
-.contact-grid p { margin: 0; font-size: 1.1rem; }
+.contact-grid p { margin: 0; font-size: 1.1rem; overflow-wrap: anywhere; }
 
 /* Moštárna – podstránka */
 .page-head {
